@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE9324242527F50200C4F80F /* ProdutosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9324232527F50200C4F80F /* ProdutosTableViewController.swift */; };
+		FEC7CD7E2527FD0200549054 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7CD7D2527FD0200549054 /* Produto.swift */; };
+		FEC7CD802527FE1A00549054 /* ProdutosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7CD7F2527FE1A00549054 /* ProdutosVC.swift */; };
 		FED980E62527E3080089838A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED980E52527E3080089838A /* AppDelegate.swift */; };
 		FED980E82527E3080089838A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED980E72527E3080089838A /* SceneDelegate.swift */; };
 		FED980EA2527E3080089838A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED980E92527E3080089838A /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE9324232527F50200C4F80F /* ProdutosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosTableViewController.swift; sourceTree = "<group>"; };
+		FEC7CD7D2527FD0200549054 /* Produto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		FEC7CD7F2527FE1A00549054 /* ProdutosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosVC.swift; sourceTree = "<group>"; };
 		FED980E22527E3080089838A /* LojaVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LojaVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED980E52527E3080089838A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED980E72527E3080089838A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE9324222527F4A500C4F80F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE9324232527F50200C4F80F /* ProdutosTableViewController.swift */,
+				FEC7CD7F2527FE1A00549054 /* ProdutosVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC7CD7C2527FCE900549054 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7CD7D2527FD0200549054 /* Produto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FED980D92527E3080089838A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +79,8 @@
 		FED980E42527E3080089838A /* LojaVirtual */ = {
 			isa = PBXGroup;
 			children = (
+				FEC7CD7C2527FCE900549054 /* Models */,
+				FE9324222527F4A500C4F80F /* Views */,
 				FED980E52527E3080089838A /* AppDelegate.swift */,
 				FED980E72527E3080089838A /* SceneDelegate.swift */,
 				FED980E92527E3080089838A /* ViewController.swift */,
@@ -138,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC7CD802527FE1A00549054 /* ProdutosVC.swift in Sources */,
 				FED980EA2527E3080089838A /* ViewController.swift in Sources */,
+				FE9324242527F50200C4F80F /* ProdutosTableViewController.swift in Sources */,
 				FED980E62527E3080089838A /* AppDelegate.swift in Sources */,
+				FEC7CD7E2527FD0200549054 /* Produto.swift in Sources */,
 				FED980E82527E3080089838A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
